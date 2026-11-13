@@ -24,11 +24,51 @@
   <link rel="icon" type="image/png" href="img/logo.png" />
   <link rel="apple-touch-icon" href="img/logo.png" />
 
-  <link rel="preconnect" href="https://fonts.googleapis.com" />
-  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
-  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&family=Teko:wght@500;600;700&display=swap" rel="stylesheet" />
+  <link rel="preload" href="fonts/inter-400.woff2" as="font" type="font/woff2" crossorigin />
+  <link rel="preload" href="fonts/teko-600.woff2" as="font" type="font/woff2" crossorigin />
 
   <link rel="stylesheet" href="css/style.css" />
+
+  <script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [
+    {
+      "@type": "ListItem",
+      "position": 1,
+      "name": "Home",
+      "item": "https://hokiarena.games/"
+    },
+    {
+      "@type": "ListItem",
+      "position": 2,
+      "name": "Games",
+      "item": "https://hokiarena.games/games.html"
+    },
+    {
+      "@type": "ListItem",
+      "position": 3,
+      "name": "Hoki Arena Showcase",
+      "item": "https://hokiarena.games/hoki-arena-showcase.html"
+    }
+  ]
+}
+  </script>
+  <script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "VideoGame",
+  "name": "Hoki Arena Showcase",
+  "url": "https://hokiarena.games/hoki-arena-showcase.html",
+  "description": "Hoki Arena Showcase is a playful, mobile-friendly companion experience that highlights casual game picks in a tidy, easy-to-read layout.",
+  "image": "https://hokiarena.games/games-icons/hoki-arena.webp",
+  "genre": "Casual",
+  "applicationCategory": "GameApplication",
+  "operatingSystem": "Web Browser",
+  "isAccessibleForFree": true
+}
+  </script>
 </head>
 <body>
 <a class="skip-link" href="#main">Skip to content</a>
@@ -68,7 +108,7 @@
     <h1>Hoki Arena Showcase</h1>
     <p class="article-meta">A friendly guide to casual game discovery with a fun visual style.</p>
     <figure class="article-hero">
-      <img src="games-icons/hoki-arena.webp" alt="Hoki Arena Showcase game artwork" />
+      <img src="games-icons/hoki-arena.webp" alt="Hoki Arena Showcase game artwork" width="400" height="400" />
     </figure>
     <a href="https://www.hokiarenaapk.com/?code=QX77KGKLRV2&t=1783840831" class="btn btn-visit btn-block article-cta" target="_blank" rel="sponsored noopener noreferrer">Visit Listing</a>
     <div class="article-content">

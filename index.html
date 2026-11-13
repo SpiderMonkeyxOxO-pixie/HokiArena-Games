@@ -34,9 +34,8 @@
   <link rel="icon" type="image/png" href="img/logo.png" />
   <link rel="apple-touch-icon" href="img/logo.png" />
 
-  <link rel="preconnect" href="https://fonts.googleapis.com" />
-  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
-  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&family=Teko:wght@500;600;700&display=swap" rel="stylesheet" />
+  <link rel="preload" href="fonts/inter-400.woff2" as="font" type="font/woff2" crossorigin />
+  <link rel="preload" href="fonts/teko-600.woff2" as="font" type="font/woff2" crossorigin />
 
   <link rel="stylesheet" href="css/style.css" />
 
@@ -47,7 +46,30 @@
     "name": "Hoki Arena",
     "alternateName": "Hoki Game Directory",
     "url": "https://hokiarena.games/",
-    "description": "Hoki Arena's curated Hoki Game directory of casual games, including paid affiliate listings."
+    "description": "Hoki Arena's curated Hoki Game directory of casual games, including paid affiliate listings.",
+    "publisher": {
+      "@type": "Organization",
+      "name": "Hoki Arena",
+      "url": "https://hokiarena.games/",
+      "logo": "https://hokiarena.games/img/logo.png"
+    }
+  }
+  </script>
+  <script type="application/ld+json">
+  {
+    "@context": "https://schema.org",
+    "@type": "Organization",
+    "name": "Hoki Arena",
+    "alternateName": "HokiArena",
+    "url": "https://hokiarena.games/",
+    "logo": "https://hokiarena.games/img/logo.png",
+    "description": "Hoki Arena is an independent directory of casual games with plain-language write-ups and disclosed paid affiliate listings.",
+    "email": "hello@hokiarena.games",
+    "contactPoint": {
+      "@type": "ContactPoint",
+      "email": "hello@hokiarena.games",
+      "contactType": "customer support"
+    }
   }
   </script>
 </head>
@@ -105,7 +127,7 @@
 
       <div class="game-grid">
         <a class="game-card" href="369zk.html">
-          <div class="tile tile-1"><img src="games-icons/369zk.webp" alt="369 ZK" /><span class="cat">Casual</span></div>
+          <div class="tile tile-1"><img src="games-icons/369zk.webp" alt="369 ZK" width="400" height="400" /><span class="cat">Casual</span></div>
           <div class="body">
             <h3>369 ZK</h3>
             <p>A neon-fast puzzle sprint for short play bursts.</p>
@@ -114,7 +136,7 @@
           </div>
         </a>
         <a class="game-card" href="hoki-arena-showcase.html">
-          <div class="tile tile-2"><img src="games-icons/hoki-arena.webp" alt="Hoki Arena Showcase" /><span class="cat">Casual</span></div>
+          <div class="tile tile-2"><img src="games-icons/hoki-arena.webp" alt="Hoki Arena Showcase" width="400" height="400" /><span class="cat">Casual</span></div>
           <div class="body">
             <h3>Hoki Arena Showcase</h3>
             <p>A friendly guide to casual game discovery with a fun visual style.</p>
@@ -123,7 +145,7 @@
           </div>
         </a>
         <a class="game-card" href="rejeki-games.html">
-          <div class="tile tile-4"><img src="games-icons/rejeki-games.webp" alt="Rejeki Games" /><span class="cat">Casual</span></div>
+          <div class="tile tile-4"><img src="games-icons/rejeki-games.webp" alt="Rejeki Games" width="400" height="400" /><span class="cat">Casual</span></div>
           <div class="body">
             <h3>Rejeki Games</h3>
             <p>A calm arcade-style casual game with approachable challenges.</p>
@@ -132,7 +154,7 @@
           </div>
         </a>
         <a class="game-card" href="rejeki-hub.html">
-          <div class="tile tile-5"><img src="games-icons/rejeki-hub.webp" alt="Rejeki Hub" /><span class="cat">Casual</span></div>
+          <div class="tile tile-5"><img src="games-icons/rejeki-hub.webp" alt="Rejeki Hub" width="400" height="400" /><span class="cat">Casual</span></div>
           <div class="body">
             <h3>Rejeki Hub</h3>
             <p>A relaxed hub for short, reward-friendly casual sessions.</p>
@@ -141,7 +163,7 @@
           </div>
         </a>
         <a class="game-card" href="remi-101.html">
-          <div class="tile tile-7"><img src="games-icons/remi-101.webp" alt="Remi 101" /><span class="cat">Casual</span></div>
+          <div class="tile tile-7"><img src="games-icons/remi-101.webp" alt="Remi 101" width="400" height="400" /><span class="cat">Casual</span></div>
           <div class="body">
             <h3>Remi 101</h3>
             <p>A clean, beginner-friendly card puzzle with calm pacing.</p>
@@ -150,7 +172,7 @@
           </div>
         </a>
         <a class="game-card" href="spin-harta.html">
-          <div class="tile tile-8"><img src="games-icons/spin-harta.webp" alt="Spin Harta" /><span class="cat">Casual</span></div>
+          <div class="tile tile-8"><img src="games-icons/spin-harta.webp" alt="Spin Harta" width="400" height="400" /><span class="cat">Casual</span></div>
           <div class="body">
             <h3>Spin Harta</h3>
             <p>A calm wheel-spin experience focused on collection and progression.</p>

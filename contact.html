@@ -34,9 +34,8 @@
   <link rel="icon" type="image/png" href="img/logo.png" />
   <link rel="apple-touch-icon" href="img/logo.png" />
 
-  <link rel="preconnect" href="https://fonts.googleapis.com" />
-  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
-  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&family=Teko:wght@500;600;700&display=swap" rel="stylesheet" />
+  <link rel="preload" href="fonts/inter-400.woff2" as="font" type="font/woff2" crossorigin />
+  <link rel="preload" href="fonts/teko-600.woff2" as="font" type="font/woff2" crossorigin />
 
   <link rel="stylesheet" href="css/style.css" />
 
@@ -48,6 +47,26 @@
       { "@type": "ListItem", "position": 1, "name": "Home", "item": "https://hokiarena.games/" },
       { "@type": "ListItem", "position": 2, "name": "Contact Us", "item": "https://hokiarena.games/contact.html" }
     ]
+  }
+  </script>
+  <script type="application/ld+json">
+  {
+    "@context": "https://schema.org",
+    "@type": "ContactPage",
+    "name": "Contact Us",
+    "url": "https://hokiarena.games/contact.html",
+    "mainEntity": {
+      "@type": "Organization",
+      "name": "Hoki Arena",
+      "url": "https://hokiarena.games/",
+      "logo": "https://hokiarena.games/img/logo.png",
+      "email": "hello@hokiarena.games",
+      "contactPoint": {
+        "@type": "ContactPoint",
+        "email": "hello@hokiarena.games",
+        "contactType": "customer support"
+      }
+    }
   }
   </script>
 </head>
