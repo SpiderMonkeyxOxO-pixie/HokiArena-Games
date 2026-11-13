@@ -1,0 +1,11 @@
+# Internal SEO audit output - not site content, not for public repo
+hokiarena.games-audit/
+
+# Local Claude Code config
+.claude/
+
+# Build/deploy scripts containing live affiliate tracking codes -
+# must not be published in a public repo or served from the live site.
+generate_game_pages.py
+add_visit_buttons.py
+site_summary.py
